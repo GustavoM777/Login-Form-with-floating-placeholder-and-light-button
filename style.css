@@ -1,6 +1,5 @@
 html{
     height: 100%;
-    
 }
 
 body{
@@ -21,7 +20,6 @@ body{
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
     border-radius: 10px;
-
 }
 
 .login-box h2{
@@ -29,7 +27,6 @@ body{
     padding: 0;
     color:#fff;
     text-align: center;
-
 }
 
 .login-box .user-box {
@@ -123,18 +120,16 @@ body{
         background: linear-gradient(180deg, transparent, #03e9f4);
         animation: btn-anim2 1s linear infinite;
         animation-delay: .25s
-    
     }
 
     @keyframes btn-anim2 {
         0%{
             top: -100%;
-            
         }
         50%, 100% {
             top: 100%;
         }
-        }
+    }
         
         .login-box a span:nth-child(3) {
             bottom: 0;
